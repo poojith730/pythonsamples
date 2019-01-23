@@ -1,0 +1,2370 @@
+
+
+##sed=('pou')
+##print(sed)
+
+##
+##read=('gui')
+##print(read)
+
+##set=("deck")
+##print(set )                            
+
+##wrong ex:
+##
+                                     
+##var= "c:\ext\tame.txt"
+##print(var)
+
+##rightex
+##var=r"c:\ext\tame.txt"
+##print (var)
+
+##wrong ex:
+##    var="dhoni is
+##    my captain"
+##print (var)
+##
+##right ex:
+##var="""dhoni is
+##captain"""
+##
+##print(var)
+
+##
+##var=input("enter your name") 
+##          
+##print(var)
+
+##var=input("enter name")
+##print(var)
+
+
+##
+##var=input("enter name")
+##print(type(var))
+
+##var=int(input("enter your name"))
+##
+##
+##print(type(var))
+
+##var= "dhoni "
+##print("my data is " + var )
+##
+##var= 9
+##print (" my data " + var)
+
+##var = 9
+##print (" my data is "+ str (var))
+##
+##var= 9
+##
+##print("my data is " , var )
+##
+##var = 9
+##print (" my data ", var, " my data ")
+##
+##var = 9
+##print ( " my data %d value is " % var )
+
+##var = 10
+##var1 = 20
+##print (" my data %d is %d vale" %(var,var1))
+
+##var =" dhoni"
+##var1= list ( var)
+##
+##print( var1)
+
+
+##var= " india is my country "
+##var1 = var .split ()
+##print ( var1)
+
+####
+##var = "india @ is @ my @ country "
+##var1 = var .split ("@")
+##print ( var1)
+##
+##var = " india@ is@ my@ country "
+##var1= var . partition ()
+##print (var1)
+
+
+##var = " india@ is@ my@ country "
+##var1= var . partition ("@")
+##print (var1)
+
+##
+##var= "india is my country"
+##
+##
+##if var . startswith ("india"):
+##    print  ("yes")
+
+##var= "india is my country"
+##if var . endswith ("country"):
+##       print ("yes")
+
+##var=  "india is my country "
+##if 'my' in var:
+##     print ("yes")
+
+
+##looping:
+##var= ("dhoni")
+##for x in var:
+##    print (x)
+
+##var= ("dhoni")
+##for x in var:
+##    print ("success")
+##
+##var= ("dhoni")
+##for x in var:
+##    if x=="o":
+##     print ( "success")
+
+##
+##var= ("dhoni")
+##for x in var:
+##    if x == "o":
+##     print( "success")
+##    else:
+##        print("failure")
+
+##var ="dhoni"
+##for x in enumerate (var):
+##    print (x)
+####
+##var ="dhoni"
+##for x in enumerate(var):
+##    if x == "o":
+##     print(x)
+
+##var ="dhoni"
+##for x,y in enumerate(var): 
+##    if y == "o":
+##     print(y)
+
+##dont place quotes for num
+##
+##var ="dhoni"
+##for x,y in enumerate(var): 
+##    if x == 2:
+##     print(x)
+
+##var ="dhoni"
+##for x,y in enumerate(var):
+##      if x == 2:
+##       print(x)
+##      else: 
+##       print(x)
+
+##var ="dhoni"
+##for x,y in enumerate(var): 
+##    if y == 2:
+##     print(x)
+##    else:
+##        print(y)
+
+##string slicing
+##var="dhoni"
+##print(var[0])
+
+##var="dhoni"
+##print(var[0:])
+
+##var="dhoni"
+##print(var[2:])
+##(if colon in front its index & if its back its as value)
+##var="dhoni msd"
+##print(var[2:6])
+##
+##var="dhoni msd"
+##print(var[4:6])
+##
+##var="dhoni msd"
+##print(var[2:])
+##
+##var="dhoni msd"
+##print(var[:6])
+##
+##var="dhoni msd"
+##print(var[:7])
+
+##var="dhoni msd"
+##print(var[-1])
+
+##var="dhoni msd"
+##print(var[-3])
+
+##var="dhoni msd"
+##print(var[-1:])
+
+##var="dhoni msd"
+##print(var[-3:])
+##
+####var="dhoni msd"
+##print(var[-6:])
+
+##var="dhoni msd"
+##print(var[-2:4])
+
+##jumps up as number due to colon
+##var="dhonimsd"
+##print(var[::2])
+##
+##var="dhonimsd"
+##print(var[::-2])
+
+##functions
+
+##var = "indiaindianintention"
+##var1="in"
+##print (var.count(var1))
+
+##var = "indiaindianintention"
+##
+##print (var.count("in"))
+
+##var = "indiaindianintention"
+##
+##print (var.count("in",3))
+
+##var = "indiaindianintention"
+##
+##print (var.count("in",3,6))
+
+##var = "indiaindianintention"
+##
+##print (var.find("in"))
+##
+##var = "diaindianintention"
+##
+##print (var.find("in"))
+
+##var="diaindianintention"
+##
+##print(var.find("in",4))
+
+##var="diaindianintention"
+##
+##print(var.find("in",4,6))
+##index and find does same job but index
+##var="indiaindianintention"
+##
+##print(var.index("in",4,6))
+
+##strip is to remove front and back symbol
+
+##var="$$dhoni$$"
+##print(len(var))
+##var1= var.strip("$")
+##print(len(var1))
+
+##var="$$dhoni$$"
+##print(var)
+##var1= var.strip("$")
+##print(var1)
+
+##var = "dhoni"
+##print (var)
+##var1 = var.center(10,"*")
+##print (var1)
+
+##if its even starts from left if its odd no. it starts from right
+##var = "dhonim"
+##print (var)
+##var1 = var.center(11,"*")
+##print (var1)
+
+##var = "dhonim"
+##print (var)
+##var1 = var.ljust(5)
+##print (var1)
+
+##var = "dhonim"
+##print (var)
+##var1 = var.rjust(7,"*")
+##print (var1)
+
+##var = "india is my country"
+##if var.startswith("india"):
+##  print (var.startswith("india"))
+##
+##var = "india is my country"
+##if var. endswith("india"):
+##   print (var.endswith("india"))
+
+
+##var = "india is my country"
+##if var.endswith("country"):
+##  print (var.endswith("country"))
+
+##var = "dhonimsd"
+##print(var.capitalize())
+##
+##
+##var = "dhonimsd"
+##print(var.upper())
+##
+##var = "dhonimsd"
+##print(var.lower())
+
+##var = "dhoni msd"
+##print(var.title())
+##
+##
+##var = "dhoni msd"
+##print(var.isupper())
+##
+##var = "dhoni msd"
+##print(var.islower())
+
+##var =["dhoni","kholi","ash"]
+##for x in enumerate (var):
+##    print (x)
+##var = "dhoni msd"
+##print(var.istitle())
+
+##list[] this method is used to add various string
+##var =["dhoni","kholi","ash"]
+##print(var)
+
+##var=['dhoni','kholi','ash']
+##for x ,y in enumerate(var):
+##    if y == "kholi":
+##      print(y)
+
+##var=['dhoni','kholi','ash']
+##for x,y in enumerate(var):
+##    if y == "kholi":
+##       print(y)
+##    else:
+##        print("failure")
+        
+##var=['dhoni','kholi','ajh']
+##var[0]="zaheer"
+##print(var)
+
+##var=['dhoni','kholi','ajh']##var=['dhoni','kholi','ajh']
+##var[0]="zaheer"
+##print(var)
+##var.insert(0,"zaheer")
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.append()
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.append("dhoni")
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.append("dhoni","ashwin")
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.append(["dhoni","ashwin"])
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.extend(["dhoni","ashwin"])
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.sort()
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.sort()
+##print(var)
+
+##var=[3,2,6]
+##var.sort()
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.sort(reverse=True)
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var1=sorted(var)
+##print(var1)
+
+##var=["dhoni","kholi","ashwin"]
+##var1=["poojith","jai"]
+##print(var+var1)
+
+##var=[1,3,5]
+##var1=["poojith","jai"]
+##print(var+var1)
+
+##var=["dhoni","kholi","ashwin"]
+##var.remove()
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.remove("kholi")
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.pop()
+##print(var)
+
+##var=["dhoni","kholi","ashwin"]
+##var.pop(0)
+##print(var)
+##
+##clear takes no arguments such as string and numbers
+
+##var=["dhoni","kholi","ashwin"]
+##var.clear()
+##print(var)
+
+##tuple works only in count & index
+
+##var=('dhoni','kholi','ajh')
+##var.insert=(0,"zaheer")
+##print(var)
+
+##var=('dhoni','kholi','ajh')
+##var.append=("kholi")
+##print(var)
+
+##var=('dhoni','kholi','ajh')
+##var.extend=("dhoni")
+##print(var)
+
+
+
+##var=('dhoni','kholi','ajh')
+##var.sort=()
+##print(var)
+
+##var=('dhoni','kholi','ajh')
+##var1="dhoni"
+##print(var.count(var1))
+##
+##var=('dhoni','kholi','ajh')
+##var1="dhoni"
+##print(var.index(var1))
+
+##var=[10,40,30,5]
+##var1=0
+##for x in var:
+##    if x >var1:
+##        var1=x
+##    print ("maxis",var1)
+##
+##var=[10,40,30,5]
+##var1=40
+##for x in var:
+##    if x >var1:
+##        var1=x
+##    print ("max is",var1)
+
+##var=[10,40,30,5]
+##var1=5
+##for x in var:
+##    if x > var1:
+##        var1=x
+##    print ("max is",var1)
+##
+##var= {"name":"dhoni","age":37}
+##print (var)
+
+##dictionary takes key and the values in key
+
+##var= {"name":"dhoni","age":37}
+##print (var["name"])
+
+##var= {"name":"dhoni","age":37}
+##print (var["age"])
+
+
+
+##var= {"name":"dhoni","age":37}
+##
+##for x in var:
+##    print(x)
+
+##var= {"name":"dhoni","age":37}
+##
+##for x in var.items():
+##    print(x)
+
+##var= {"name":"dhoni","age":37}
+##
+##for x in var.values():
+##    
+##     print(x)
+##                
+
+##var= {"name":"dhoni","age":37,"name":"jai bodha","age":23}
+##
+##for x in var.values():
+##    
+##     print(x)
+
+##var= {"name":"dhoni","age":37,"name":"jai bodha","age":23}
+##
+##for x in var.items():
+##    
+##     print(x)
+
+##var= {"name":"dhoni","age":37}
+##var['team'] = "csk"
+##print(var)
+
+##we can add only by these two methods in dictionary
+##var= {"name":"dhoni","age":37}
+##
+##var1={'team':'csk ',' country': 'india'}    
+##a = dict(**var,**var1)
+##a={**var,**var1}
+##print(a)
+
+#functions
+##def name ():
+##    print ("yes" )
+##name()
+
+##def name ():
+##    print ("yes" )
+##name(a)
+
+##def cricket(score):
+##    print (score )
+##cricket(50)
+
+##def cricket(score , team):
+##    print (score,team)
+##cricket(50,12)
+
+#function with default
+
+##def cricket(score , team= "csk"):
+##    print (score,team)
+##cricket(50)
+
+##def cricket(score , team= "csk"):
+##    print (score,team)
+##cricket(50,"rcb")
+
+##def cricket(score , team ="csk"):
+##    
+##    print (score,team)
+##cricket(50,"hhj")
+##
+##def fun (name, age):
+##    print ("my name", name,"age is", age)
+##fun(27, "dhoni")
+##
+##def fun (name, age):
+##    print ("my name", name,"age is", age)
+##fun(age=27,name= "dhoni")
+
+##def fun (name):
+##    print ( name)
+##fun( "dhoni")
+##fun("dhoni" , "kholi")
+
+##def fun (*name):
+##    print ( name)
+##fun("dhoni","kholi")
+
+##def fun (*name):
+##    print ( name)
+##fun("dhoni","kholi","zaheer","poli")
+
+##def fun (*name):
+##    print ( name)
+##fun("dhoni","kholi",1,2)
+
+##def fun (*name):
+##    print ( name)
+##fun(name="dhoni",age=32)
+
+##def fun (**name):
+##    print ( name)
+##fun(name="dhoni",age=32)
+
+##
+##def name():
+##    print("snake")
+##name()
+
+
+##def name(*snake):
+##    print(snake)
+##name( "reptile","age")
+
+##def football(Team,score):
+##    print(Team,score)
+##football(Team=12,score=50)
+
+##def football(Team,score):
+##    print(Team,score)
+##football("csk",score=50)
+
+##def football(Team,score=50):
+##    print(Team,score)
+##football("csk")
+
+##default argument in function
+##def football(Team,score= 50):
+##    print(Team,score)
+##football("csk",50)
+
+##non default argument
+##def football(Team="csk",score):
+##    print(Team,score)
+##football(50)
+
+##def football(Team,score):
+##    print(Team,score)
+##football(score=50,Team='csk')
+
+##def football(Team,score):
+##    print(Team,score)
+##football(Team='csk',score=50)
+
+##recursive function
+
+##def fun():
+##    print ("yes")
+##    fun()
+##fun()
+
+##def fun():
+##    count+=1
+##    print ("yes",count)
+##    fun()    
+##    
+##fun()
+
+##def fun():
+##    count=0
+##    count+=1
+##    print ("yes",count)
+##    fun()    
+##    
+##fun()
+
+##count =0
+##def fun():
+##    count+=1
+##    print ("yes",count)
+##    fun()    
+##    
+##fun()
+##
+##count =0
+##def fun():
+##    global count
+##    count+=1
+##    print ("yes",count)
+##    fun()
+
+##count =0
+##def fun():
+##    global count
+##    count+=1
+##    print ("yes",count)
+##    if  count ==100:
+##        return
+##    fun() 
+##fun()
+
+##count =0
+##def fun():
+##    global count
+##    count+=1
+##    print ("yes",count)
+##    if  count ==980:
+##        return
+##    fun()
+##fun()
+
+##
+##count =0
+##def fun():
+##    global count
+##    count+=1
+##    print ("yes",count)
+## 
+##    if  count <100:
+##        fun()
+##    else:
+##        return
+    
+##fun()
+
+##count =0
+##def fun():
+##    global count
+##    count+=10
+##    print ("yes",count)
+## 
+##    if  count >105:
+##        fun()
+##    else:
+##        return
+##fun()
+
+##count =0
+##
+##def fun():
+##    global count
+##    count+=10
+##    print ("yes",count)
+##
+##    if count <100:
+##       fun() 
+##    else:  
+##        return
+##fun()
+
+##def fun():
+##    print("function")
+##
+##print(fun())
+
+##def fun():
+##    print("function")
+##    return "success"
+##print(fun())
+
+##def fun():
+##    print("function")
+##    print ("jai")  
+##    return "success"
+##  
+##print(fun())
+
+
+##string slicing
+
+##var = "dhoni"
+##print (var[0])
+
+## colon is used to start from 
+##
+##var = "dhoni"
+##print (var[2:])
+
+##var = "dhoni"
+##print (var[1:3])
+
+##var = "dhoni"
+##print (var[:4])
+
+##var = "dhoni"
+##print (var[1:])
+
+##var = "dhoni"
+##print (var[-1])
+
+##var = "dhoni"
+##print (var[-1:])
+
+##var = "dhoni"
+##
+##print (var[-2:])
+    
+##var = "dhoni"
+##print (var[-4:])
+##
+##var = "dhoni"
+##print (var[:-3])
+
+##var = "dhoni"
+##print (var[0:-2])
+
+##var = "dhoni"
+##print (var[-2:2])
+
+##var = "dhoni"
+##print (var[-1:2])
+
+##var = "dhoni"
+##print (var[::-5])
+##
+##var = "dhoni"
+##print (var[2::])
+
+##var = "dhoni"
+##print (var[::-2])
+
+##this is method of immutable once we assigned we cannot change the string
+## if the string is in list [] then it takes whole string as one index
+##var = ["rohit"]
+##var[0]="m"
+##print(var)
+
+##var = 11
+##
+##print (var/2)
+##
+##print (var//2)
+##
+##print (var %2)
+
+##single slash / divides whole 
+##double slash // takes out decimal value gives as round value
+##modulo % gives out the reminder
+
+##var = 1905
+##
+##print (var/100)
+##
+##print (var//100)
+##
+##print (var%100)
+
+##var = 1905
+##
+##print (var//10000)
+##
+##var = 95
+##
+##var1 = "dhoni"
+##
+##print ("my captain" ,var1,"scored" , str(var))
+
+##
+
+
+##var = 95
+##
+##var1 = "dhoni"
+##
+##print ("my captain %s scored%d" %(var1, var))
+
+##var = "c:\new\tex.txt"
+##print (var)
+
+##var =  r"c:\new\tex.txt"
+##print (var)
+
+##def fun ():
+##	print("data")
+##
+##fun()
+
+##class cname:
+##    def fun ():
+##        print("data")
+##
+##
+##cname.fun()
+
+##class cname:
+##    def fun (goal):
+##        print(goal)
+##
+##
+##cname.fun(3)
+
+##default argument
+
+##class cname:
+##    def fun (goal=3):
+##        print(goal)
+##
+##
+##cname.fun()
+
+##class cname:
+##    def fun (name,country):
+##        print(name,country)
+##
+##cname.fun(2,3)
+
+##class cname:
+##    def fun (name,country):
+##        print(name,country)
+##
+##cname.fun("dhoni"," india")
+
+##default argument
+##class cname:
+##    def fun (name,country="india"):
+##        print(name,country)
+##
+##cname.fun("dhoni")
+
+
+##class cname:
+##    def fun (name,country="india"):
+##        print(name,country)
+##
+##cname.fun("dhoni"," pak ")
+
+
+##default arguments must be at last to make it work
+
+##class cname:
+##    def fun (name,country="dhoni"):
+##        print(name,country)
+##
+##cname.fun(" india")
+
+##class cname:
+##    def fun (name,country,fez):
+##        print(name,country,fez)
+##
+##cname.fun("dhoni"," india","fit")
+
+##class cname:
+##    def fun (name,country,fez="fit"):
+##        print(name,country,fez)
+##
+##cname.fun("dhoni"," india")
+
+##
+##class cname:
+##    def fun (name,country):
+##        print(name,country)
+##
+##cname.fun(country =" india",name ="dhoni")
+
+##key word argument
+
+##class cname:
+##    def fun (name,country):
+##        print(name,country)
+
+##cname.fun(country =" india",name ="dhoni")
+
+
+
+##error:
+##class cname:
+##    def fun (name="dhoni",country):
+##        print(name,country)
+##
+##cname.fun(country =" india")
+
+##( important question comes in interview asks why none is there, answer is
+##there is nothing to print further so if return is used it prints the argument
+##class cname:
+##    def fun (name,country):
+##        print(name,country)
+##
+##print(cname.fun("dhoni","india"))
+
+##class cname:
+##    def fun (name,country):
+##        print(name,country)
+##        return("success")
+##print(cname.fun("dhoni","india"))
+
+##class cname:
+##           
+##    def fun(name,country):
+##        
+##        print(name , country)
+##    
+##
+##cname.fun("dell","comp") 
+##        
+
+
+#--------------------------function overloading concept-----------------python 
+##don'tsupport function overload
+
+##class cname:
+##    def fun():
+##        print("first")
+##
+##    def fun(): 
+##        print("second")
+##
+##cname.fun()
+
+##class cname:
+##    def fun(name):
+##        print(name)
+##
+##    def fun(): 
+##        print("second")
+##
+##cname.fun("dhoni")             
+
+
+##class cname:
+##    def fun():
+##        print("second")
+##     
+##
+##    def fun(name): 
+##        print(name)
+##
+##cname.fun("dhoni")
+
+##-------------private,public access pacifier data in  function-----------------------
+
+##class cname:
+##    def fun():
+##        print("first")
+##
+##    def __fun(): 
+##        print("second")
+##
+##cname.fun()
+
+
+##class cname:
+##    def fun(name):
+##        print(name)
+##
+##    def __fun(): 
+##        print()
+##
+##cname.fun("ds")
+
+##class cname:
+##    var= "jai"
+##print (cname.var)
+
+##class cname:
+##    __var= "jai"
+##print (cname.var)
+
+##class cname:
+##    def _fun(name):
+##        print(name)
+##
+##    def __fun(): 
+##        print()
+##
+##cname._fun("ds")
+
+##error
+##class cname:
+##    def __fun (name):
+##        print(name)
+##
+##     
+##    
+##cname.fun()
+
+##class cname:
+##    def __fun (name):
+##        print(name)
+##
+##     
+##    
+##cname._cname__fun("yes")
+
+
+##class cricket:
+##    def ipl(match,score):
+##        print(match,score)
+##
+##    def __ranji(match,score):
+##        print(match,score)
+##
+##    def dhilip(match,score):
+##        print(match,score)
+##
+##cricket.ipl(2,85)
+##cricket._cricket__ranji(3,55)
+##cricket.dhilip(4,88)
+
+##
+##single inheritance
+##class c1:
+##    def dell():
+##        print(1)
+##        
+##class c2(c1):
+##    def fun():
+##        print(2)
+##
+##c2.dell()
+
+##class c1:
+##    def dell():
+##        print(1)
+##        
+##class c2(c1):
+##    def dell():
+##        print(2)
+##
+##c2.dell()
+
+##class c1:
+##    def dell():
+##        print(1)
+##        
+##class c2(c1):
+##    def __dell():
+##        print(2)
+##
+##c2.dell()
+
+##class c1:
+##    def dell(name,country):
+##        print(name,country)
+##        
+##class c2(c1):
+##    def __dell(yes,no):
+##        print(yes,no)
+##
+##c2.dell("dhoni","hez")
+
+## attribute (when under score used on double side it is used to check the document)
+##usually underscore is used from left side
+
+##class c1:
+##    """this is my class""" 
+##    def fun(data):
+##        print("des")
+##
+##
+##c1.fun("des")
+##print(c1.__doc__)
+
+##multiple inheritance
+
+##class a:
+##    def fun():
+##        print('o')
+##class b(a):
+##    def fun():
+##        print("two")
+##
+##class c(a):
+##    def fun():
+##         print("three")
+##
+##class d(b,c):
+##    def fun():
+##        print("four")
+##
+##d.fun()
+
+
+##class a:
+##    def fun():
+##        print('o')
+##class b(a):
+##    def dell():
+##        print("two")
+##
+##class c(b):
+##    def bell():
+##         print("three")
+##
+##class d(c):
+##    def kill():
+##        print("four")
+##
+##d.bell()
+
+##method resolution order
+
+##class A:
+##    def fun():
+##        print('o')
+##class B(A):
+##    def fun():
+##        print("two")
+##
+##class C(A):
+##    def fun():
+##         print("three")
+##
+##class D(B,C):
+##    pass
+##    
+##
+##D.fun()
+
+##creating object  for the class(like pet name)
+
+##class cricket:
+##    """this is my class"""
+##    def fun(data):
+##        print("des")
+##
+##c=cricket
+##c.fun("des")
+##print(c.__doc__)
+
+
+##file operations
+
+##var= open('sample.txt','w')
+##
+##var.write ("my data")
+##
+##var.close ()
+
+##var= open('sample.txt','w')
+##
+##var.write ("my data")
+##var.read
+##
+##var.close ()
+
+##error
+##var= open('sample.txt','w')
+##
+##
+##print(var.read())
+
+##this method is used to both functions as read and write at time
+##var= open('sample.txt','w+')
+##var.write("india")
+##
+##
+##print(var.read())
+
+##var= open('sample.txt','w+')
+##var.write("india")
+##var.seek(0)
+##
+##print(var.read())
+
+##var= open('sample.txt','r+')
+##print(var.read())
+##var.write('yes')
+##var.close()
+
+##var= open('sample.txt','r+')
+##print(var.read())
+##var.write("yes")
+##var.seek(5)
+##var.close()
+
+##var=open('sample.txt','r+')
+##(var.readline ())
+##
+##
+
+##var=open('sample.txt','r+')
+##print(var.read ())
+
+
+##var=open('sample.txt','r+')
+##print(var.readline (2))
+##print(var.readline(2))
+##print(var.readline(2))
+
+##var=open('sample.txt','r+')
+##print(var.readlines())
+
+##var= open('sample.txt','w+')
+##var.write("data")
+##var.write('dell')
+##var.seek(0)
+##print(var.read())
+##var.close()
+
+##var=open('sample.txt','r+')
+##a=var.readlines()
+##b=[]
+##for x in a:
+##    print(x)
+##    b.append(x)
+##c=[]
+##for x in b:
+##    y=x.strip('\n')
+##    c.append(y)
+##print (c)
+
+##var=open("sample.txt","w+")
+##a=var.readlines()
+##b=[]
+##for x in a:
+##    print(x)
+##    b.append(x)
+##
+##c=[]
+##for x in b:
+##    y=x.strip('\n')
+##    c.append(y)
+##    print(c)
+
+##var=open("sample.txt","r+")
+##a=var.readlines()
+##print(x)
+
+
+
+    
+##this method is used to create new files in given data
+##var=open("sample.txt","r")
+##var1=var.readlines()
+##print(var1)
+##for x in var1:
+##    y=x.strip('\n')
+##    z=y+".txt"
+##    new=open(z,"w")
+##    new.write("dew")
+##    new.close()
+
+##
+##it is used to create one file as given times by using time functions
+##import time
+##var=open("sample.txt","r")
+##var1=var.readlines()
+##print(var1)
+##for x in var1:
+##     man=time.ctime()
+##     man1=man.replace(":",'_')
+##     man2=man1.replace("","_")
+##     y=x.strip('\n')
+##     z=y+man2+".txt"
+##     time.sleep(2)
+##   
+##     new=open(z,"w")
+##     new.write("elo")
+##     new.close()
+
+##import requests
+##var=requests.get("http://techslides.com/demos/sample-videos/small.mp4")
+##print(var)
+##a= open('myfile.mp4','wb')
+##a.write(var.content)
+##a.close ()
+
+
+##var=10/0
+##print(var)
+
+
+##we can use underscore instead of x
+##for _ in range (2,3,10):
+##    
+##      print("yes")
+
+##exception handling
+
+##try:
+##    var=10/0
+##    print(var)
+##except:
+##    print("sorry")
+##
+##
+##  print("yes"+10)
+
+
+
+##try:
+##    print("yes"+10)
+##except:
+##    print ("yes"+str(10))
+
+   
+##try:
+##    print("dhoni"+str(7))
+##except ZeroDivisionError:
+##    print("false")
+
+##try:
+##    
+##    print("dhoni"+7)
+##except ZeroDivisionError:
+##    print("false")
+
+##try:
+##    var=10/0
+##    
+##    print(var)
+##except ZeroDivisionError:
+##    print("false")
+
+##try:
+##    
+##    print("dhoni"+7)
+##except ZeroDivisionError:
+##    print("false")
+##
+##except:
+##    print("error")
+
+##try:
+##    
+##    print("dhoni"+7)
+##except ZeroDivisionError:
+##    print("false")
+##
+##except:
+##    print("error")
+##finally:
+##    print("success")
+
+##try:
+##    var=10/0
+##    print(var)
+##except ZeroDivisionError:
+##    print("false")
+##
+##except:
+##    print("error")
+##finally:
+##    print("success")
+
+##try:
+##    var=10/0
+##    print(var)
+##except ZeroDivisionError:
+##    print("false")
+##
+##except:
+##    print("error")
+##finally:
+##    print("success")
+##else:
+##    print("none")
+
+##try:
+##    var=10/0
+##    print(var)
+##except ZeroDivisionError:
+##    print("false")
+##
+##except:
+##    print("error")
+##
+##else:
+##    print("none")
+##finally:
+##    print("success")
+
+##try:
+##   print("success")
+##   print("msd"+10)
+##except ZeroDivisionError:
+##    print("false")
+##    
+##    print("dhoni"+7)
+##except TypeError:
+##    print("error")
+##    
+##else:
+##    print("none")
+##    
+##finally:
+##    print("success")
+
+##crct example
+##try:
+##    
+##    var=(10/0)        
+##except ZeroDivisionError:
+##    print("false")
+##try:   
+##    var=("dhoni"+10)
+##except TypeError:
+##    print("error")
+##    
+##else:
+##    print("none")
+##    
+##finally:
+##    print("success")
+
+##from pytube import YouTube
+##
+##YouTube("https://www.youtube.com/watch?v=AdhUifjOahs").streams.first().download(r'c:\users\poojith\desktop')
+    
+##raising an exception manually
+##try:
+##    var=10
+##    if var>5:
+##    
+##       raise IndexError()
+##except IndexError:
+##       print("my error")
+
+
+##try:
+##    var=1
+##    if var>5:
+##    
+##       raise IndexError()
+##except IndexError:
+##       print("my error")
+
+##system defined exception
+##try:
+##    var=10/0
+##except ZeroDivisionError:
+##    print("yes")
+
+
+##try:
+##    var=10/0
+##except ZeroDivisionError as a:
+##    print(a)
+
+
+##try:
+##    var=10
+##    if var>5:
+##       raise IndexError ("y")
+##except IndexError as a:
+##       print(a)
+
+##try:
+##    var=10
+##    if var>5:
+##       raise myerror ()
+##except  myerror:
+##       print("my error")
+
+##class myerror(Exception):
+##      pass
+##try:
+##    var=10
+##    if var>5:
+##       raise myerror ()
+##except  myerror:
+##       print("my error")
+
+##user defined exception
+
+##class myerror(Exception):
+##      print
+##try:
+##    var=10
+##    if var>5:
+##       raise myerror ("first")
+##except  myerror:
+##       print("my error")
+
+##class myerror(Exception):
+##      var=("own error")
+##try:
+##    var=10
+##    if var>5:
+##       raise myerror ()
+##except  myerror as a:
+##       print(a.var)
+
+
+
+##class myerror (Exception):
+##      var=("my time")
+##try:       
+##     var=10
+##     if var>5:
+##
+##       raise myerror ()
+##except myerror as a:
+##    print(a.var)
+##
+##try:
+##    var= 10/0
+##
+##except ZeroDivisionError as a:
+##    print(a)
+##
+##try:
+##    var="dhoni"+10
+##except TypeError as a:
+##    print(a)
+##
+##class myerror (Exception):
+##      var="my data"
+##try:
+##    var=10
+##    if var>5:
+##        raise myerror()
+##except myerror as a:
+##    print(a.var)
+##
+##else:
+##    print("got")
+##finally:
+##    print("done")
+##for x in range(10):
+##     print(x)
+
+
+##for x in range(2,10):
+##     print(x)
+
+##for x in range(2,10,2):
+##     print(x)
+##
+##
+##def add (a,b):
+##    return(a+b)
+##    y=(a+b)
+##    
+##  print(y)
+##add(2,3)
+#multiply string?
+
+##gil = global interpreter lock
+
+## series function
+##import time
+##def fun(name,age):
+##    print(time.ctime())
+##    print(name,age)
+##    time.sleep(3)
+##  
+##
+##def data(section,place):
+##    print(time.ctime())
+##    print(section,place)
+##fun(1,2)
+##data("tbm","chennai")
+
+##multithreading
+##parallel function
+
+##import time
+##import threading
+##def fun():
+##    print("poojith",time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##def data():
+##    print("jai",time.ctime())
+##
+##
+##t1=threading.Thread(target=fun)
+##t2=threading.Thread(target=data)
+##
+##t1.start()
+##t2.start()
+
+##def add (a,b):
+##    return(a+b)
+##    b=add(a,b)
+##    print(b)
+##
+##v=add(2,3)
+##print(v)
+
+##count=0
+##def fun():
+##    global count
+##while (count<=10):
+##    print("yes")
+##    count+=1
+##    fun()
+##fun()
+
+##count=0
+##def fun():
+##    global count
+##while (count<=10):
+##    print("yes")
+##    count+=1
+##    fun()
+##fun()
+
+##import time
+##import threading
+##def fun():
+##    print("poojith",time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##
+##
+##
+##t1=threading.Thread(target=fun)
+##t2=threading.Thread(target=fun)
+##
+##t1.start()
+##t2.start()
+
+##import time
+##import threading
+##def fun(name,age):
+##    print(name,age,time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##def data(date,no):
+##    print(date,no,time.ctime())
+##
+##
+##t1=threading.Thread(target=fun,args=("jai",23))
+##t2=threading.Thread(target=data,args=("yes",14))
+##
+##t1.start()
+##t2.start()
+##
+##import time
+##import threading
+##def fun(name):
+##    print(name,time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##def data(date):
+##    print(date,time.ctime())
+##
+##
+##t1=threading.Thread(target=fun,args=("jai",))
+##t2=threading.Thread(target=data,args=("yes",))
+##
+##t1.start()
+##t2.start()
+
+
+##import time
+##import threading
+##def fun(name):
+##    print(name,time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##def data(date):
+##    print(date,time.ctime())
+##
+##
+##t1=threading.Thread[target=fun,args="jai"]
+##t2=threading.Thread[target=data,args="yes"]
+##
+##t1.start()
+##t2.start()
+
+##regular expression
+
+##import re
+##var="cats are smarter than dogs"
+##var1=re.match("cats",var,re.I)
+##print(var1.group())
+
+##in this case sensitive doesnt matteR
+##import re
+##var=" Cats are smarter than dogs"
+##var1=re.match(" cats",var,re.I)
+##print(var1.group())
+
+##import re
+##var="cats are smarter than dogs"
+##var1=re.search("dogs",var,re.I)
+##print(var1.group())
+
+##----greedy
+##var= "<html><head><body><header><footer>"
+##var1= re.match("<.*>",var)
+##print(var1.group())
+
+##non greedy
+
+##var= "<html><head><body><header><footer>"
+##var1= re.match("<.*?>",var)
+##print(var1.group())
+
+##var= "DHONI scored 183 in 1st Innings MATCH  in 70 overs with 3 extras"
+##var1= re.findall("\d{1,2}",var )
+##print(var1)
+
+##var= "DHONI scored 183 in 1st Innings MATCH  in 70 overs with 3 extras 4567"
+##var1= re.findall("\d{2}",var )
+##print(var1)
+   
+##var= "DHONI scored 183 in 1st Innings MATCH  in 70 overs with 3 extras 4567"
+##var1= re.findall("\d{2}",var )
+##print(var1)
+
+##var= "DHONI scored 183 in 1st Innings MATCH  in 70 overs with 3 extras 4567"
+##var1= re.findall("\D{5}",var )
+##print(var1)
+
+##var= "DHONI scored 183 in 1st Innings MATCH  in 70 overs with 3 extras 4567"
+##var1= re.findall("\D{1,2}",var )
+##print(var1)
+
+##var= "cats are smarter than dogs"
+##var1=re.match(".* than .*",var)
+##print(var1.group())
+
+##var= "cats are smarter than dogs"
+##var1=re.match(".*dogs*.?",var)
+##print(var1.group())                 we have to import re for every function
+
+
+
+##var= "cats are smarter than dogs"
+##var1=re.match("(.*) are (.*)",var)
+##
+##print(var1.group(1))
+##print(var1.group(2))
+
+##import re
+##email_address="please contact us at : support@datacamp.com, xyz@datacamp.com"
+##print(email_address)
+##addresses=re.findall(r"[\w\.]+@[\w\.]+",email_address)
+##print(addresses)
+##for address in addresses:
+##    print(address)
+
+
+##import re
+##email_address="please contact us at : support@datacamp.com, xyz@datacamp.com"
+##print(email_address)
+##addresses=re.findall(r"[\w\.]+@[\w\.]+",email_address)
+##print(addresses)
+##for address in addresses:
+##    print(address)
+
+##import re
+##email_address = 'Please contact us at: support@datacamp.com'
+##match = re.search(r'([\w\.-]+)@([\w\.-]+)', email_address)
+##if match:
+##  print(match.group()) # The whole matched text
+##  print(match.group(1)) # The username (group 1) 
+##  print(match.group(2))
+                  
+##import re
+##var="979@253!50!90"
+##var1=re.sub("(.*)@","",var)
+##print(var1)
+##var2=re.sub("(.*)!","",var1)
+##print(var2)
+
+##import re
+##var="979@253!50!90"
+##var1=re.sub("@","",var)
+####print(var1)
+##var2=re.sub("!","",var1)
+##print(var2)
+
+##class school:
+##    def__init__(self,book,pen):
+##        self.b= book
+##        self.p= pen
+##        def stud1():
+##            print(self.b)
+##        def stud2():
+##            print(self.b,self.p)
+##s=school("math","reynolds")
+##s.stud1()
+##s.stud2()
+
+##class school:
+##    def __init__(self,book,pen):
+##        self.b= book
+##        self.p= pen
+##    def stud1(self):
+##            print(self.b)
+##    def stud2(self):
+##            print(self.b,self.p)
+##s=school("math","reynolds")
+##s.stud1()
+##s.stud2()
+
+##self function
+##class school:
+##    def __init__(self,book,pen,pick):
+##        self.a=pick
+##        self.b= book
+##        self.p= pen
+##    def stud1(self):
+##            print(self.a)
+##    def stud2(self):
+##            print(self.b,self.p)
+##s=school("math","reynolds","good")
+##s.stud1()
+##s.stud2()
+
+##self - object reference
+##init- initialization
+##s-instance
+##school-constructor
+##self.b-instantiation
+
+##from pytube import YouTube
+##
+##YouTube("https://www.youtube.com/watch?v=AdhUifjOahs").streams.first().download(r'c:\users\poojith\desktop')
+
+##var= "abc"
+##var1="def"
+##
+##for x in zip (var,var1):
+##    y=x[0]+x[1]
+##    print(y)
+
+##class remotedesktop:
+##    def system(ip, password):
+##        print(ip,password)
+##    def system1(ip, password):
+##        print(ip,password)
+##
+##remotedesktop.system(10,20)
+##remotedesktop.system1(11,21)
+##
+##class remotedesktop:
+##    def __init__(self,ip,pwd,run ,health):
+##
+##        self.ip=ip
+##        self.pwd=pwd
+##        self.run=run
+##        self.health=health
+##    
+##        
+##    def system1(self):
+##        print(self.ip,self.run)
+##        
+##    def system2(self):
+##        print(self.pwd,self.health)
+##c=remotedesktop("10.3.11",123,"ls","cwd")
+##c.system1()
+##c.system2()
+
+
+
+##class remotedesktop:
+##    def __init__(self,ip,pwd,run ,health,text,write):
+##
+##        self.ip=ip
+##        self.pwd=pwd
+##        self.run=run
+##        self.health=health
+##        self.text=text
+##        self.write=write
+##    
+##        
+##    def system1(self,otp):
+##        print(self.ip,self.run,otp)
+##        
+##    def system2(self):
+##        print(self.pwd,self.health)
+##c=remotedesktop("10.3.11",123,"ls","cwd",1,2)
+##c.system1(301)
+##c.system2()
+
+##class remotedesktop:
+##    def __init__(self,ip,pwd,run ,health,text,write):
+##
+##        self.ip=ip
+##        self.pwd=pwd
+##        self.run=run
+##        self.health=health
+##        self.text=text
+##        self.write=write
+##    
+##        
+##    def system1(cls,otp):
+##        print(otp)
+##        
+##    def system2(cls,otp):
+##        print(otp)
+##c=remotedesktop("10.3.11",123,"ls","cwd",1,2)
+##c.system1(123)
+##c.system2(123)
+
+##import time
+##import threading
+##def fun(name):
+##    print(name,time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##def data(date):
+##    print(date,time.ctime())
+##
+##
+##t1=threading.Thread(target=fun,args=["jai"])
+##t2=threading.Thread(target=data,args=["yes"])
+##
+##t1.start()
+##t2.start()
+
+##import time
+##import threading
+##def fun(name):
+##    print(name,time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##def data(date):
+##    print(date,time.ctime())
+##
+##
+##t1=threading.Thread(target=fun,args=("jai",))
+##t2=threading.Thread(target=data,args=("yes",))
+##
+##t1.start()
+##t2.start()
+
+##import time
+##import threading
+##def fun(name):
+##    print(name,time.ctime())
+##    
+##    time.sleep(3)
+##  
+##
+##
+##
+##
+##t1=threading.Thread(target=fun,args=("jai",))
+##t2=threading.Thread(target=fun,args=("yes",))
+##
+##t1.start()
+##t2.start()
+
+##import time
+##import threading
+
+##import threading
+##count=0
+##
+##def fun(data,delay):
+##    global count
+##    count+=1
+##    while count<5:
+##        
+##        print(data,delay)
+##    
+##        
+##        
+##
+##t1=threading.Thread(target=fun,args=("jai","age"))
+##t2=threading.Thread(target=fun,args=("yes","no"))
+##
+##t1.start()
+##t2.start()
+
+##import time
+##import threading
+##
+##count=0
+##
+##def fun(data,delay):
+##    global count
+##    count+=1
+##    while count<5:
+##        time.sleep(delay)
+##        print(data,time.ctime())
+##    
+##        
+##        
+##
+##t1=threading.Thread(target=fun,args=("jai",2))
+##t2=threading.Thread(target=fun,args=("yes",1))
+##
+##t1.start()
+##t2.start()
+
+
+##import time
+##import threading
+##
+##count=0
+##
+##def fun(data,delay):
+##    global count
+##    count+=1
+##    while count<5:
+##        
+##
+##        
+##        
+##        time.sleep(delay)
+##        print(data,time.ctime())
+##    
+##        
+##        
+##
+##t1=threading.Thread(target=fun,args=("jai",2))
+##t2=threading.Thread(target=fun,args=("yes",1))
+##
+##t1.start()
+##t2.start()
+
+##class myownerror(Exception):
+##    errorname = ("user def")
+##try:
+##    var =10
+##
+##    if var>5:
+##
+##       raise myownerror()
+##except myownerror :
+##    print(myownerror.errorname)
+
+##one.import*
+##one.import fun    
+
+##class student :
+##    def add ():
+##        print ("s")
+##    def __add():
+##         print("f")
+##student.add()
+    
+##1.public
+##2.private__
+##3.protected _
+
+##class student :
+##    
+##  """success"""
+##  def __add ():
+##      print (s)
+##      
+##  def add(a,b):
+##         print(a+b)
+##         
+##student.add(2,3)
+
+##triple quotes inside the class called document string
+##attributes double underscore on both sides are called attributes
+##single inheritance
+##class student:
+##    def add():
+##        print("s")
+##class two:
+##    def sub(student):
+##        print("y")
+##
+##two.add()
+
+##multilevel inheritance
+
+##class a:
+##    def fun():
+##        print("a")
+##
+##class b(a):
+##    def fun():
+##        print("b")
+##
+##class c(a):
+##    def fun():
+##        print("c")
+##
+##class d(c,b):
+##    def fun():
+##        print("d")
+##d.fun()
+
+##method resolution method algorithim
+##class a:
+##    def fun():
+##        print("a")
+##
+##class b(a):
+##    def fun():
+##        print("b")
+##
+##class c(a):          ##if we replace(b)at last it gives data in b
+##    def fun():       ##it takes first object in the class prints the data
+##        print("c")   ##this is mro
+##
+##class d(c,b):
+##    pass
+##    
+##d.fun()
+
+##this normal class method consumes memory as well as resources to be stored in
+##different instance
+
+##class server:
+##    def __init__(self,ip,pwd):
+##
+##        self.a=ip
+##        self.b=pwd
+##        
+##    def login(self):
+##        print(self.a,self.b)
+
+##    def servername(self):
+##        print(self.a)
+
+##s=server('120.02.01',123)
+##s.login()
+##s.servername()
+
+##class server:
+##    def __init__(self,ip,pwd):
+##
+##        self.a=ip
+##        self.b=pwd
+##        
+##    def login(self):
+##        print(self.a,self.b)
+##
+##    def servername(self,otp):
+##        print(self.a,otp)
+##
+##s=server('120.02.01',123)
+##s.login()
+##s.servername("yes")
+
+##class server:
+## def __init__(self,ip,pwd):
+##
+##        self.a=ip               ##L.acquire,Lock,L.release(pending)multithreading
+##        self.b=pwd
+##        
+##    def login(self):
+##        print(self.a,self.b)
+##
+##    def servername(self,otp):
+##        print(self.a,otp)
+##
+##s=server('120.02.01',123)
+##s.login()
+##s.servername("yes")
+
+##def double (var):
+    
+    
+    
+    
+##    return var*var 
+    
+   
+
+##a=double(2)
+##print(a)
+
+
+##lambda is an anonymous expression which is used to consume less data
+##double =lambda var: var*var
+##print(double(2))
+
+##class cname :
+##    def __init__(self,book,calculation):
+##
+##        self.a= book
+##        self.b = calculator
+
+##var = "today/python/new.txt"
+##path="F://" +var
+##var1=open(path,"w")
+##var1.write("yes")
+##var1.close()        
+    
+##var = "c:today /python/new.txt"
+##path="D://+var"
+##var1=open(path,"w")
+##var1.write("yes")
+##var1.close()
+
+##import os
+##var = "today/python/new.txt"
+##path="F://"
+##newpath = os.path.join(path,var)
+##print(newpath)
+##print(newpath)
+##var1=open(newpath,"w")
+##var1.write("yes")
+##var1.close()  
+    
+##import os
+##var = "today/python/new.txt"
+##path="F:\\"
+##newpath = os.path.join(path,var)
+##print(newpath)
+##print(newpath)
+##var1=open(newpath,"w")
+##var1.write("yes")
+##var1.close()          
+      
+##import os 
+##print(os.getcwd())
+
+##import os 
+##print(os.name)
+
+
+
+
+##import socket
+##
+##a = socket.gethostname()
+##b = socket.gethostbyname(a)
+##print(b)
+
+
+
+
+##from datetime import datetime
+##from datetime import timedelta
+##var=datetime.now()
+##print(var)
+##
+##var1=datetime.now().replace(microsecond=0)
+##print(var1)
+##
+##var2=datetime.now()+timedelta(minutes=30)
+##print(var2)
+##
+##fmt = "%Y$%m@%d%H@%M@%S"
+##a=datetime.strftime(var1,fmt)
+##print(a)
+
+
+##from datetime import datetime
+##var="2019-01-11 10:23:10"
+##fmt="%Y-%m-%d %H:%M:%S"
+##oldvar = datetime.strptime(var,fmt)
+##newvar = datetime.now().replace(microsecond=0)
+##output = oldvar-newvar
+##a= (output.seconds)/60*60
+##print(a)
+
+
+##django is web framework
+##facebook.com
+##web host, server
+##
+##store - us redhat
+##
+##-landing page
+##
+##- select ip -120.00.01
+##
+##- port 8000
+##
+##- masking
+##
+##- start up the service
+
+##(they have separate modules for different problems known as api)
+##mvc ,mvt
+
+
+##var=['a','b','a','d']
+##var1=set(var)
+##print(var1)
+
+##var=['a','b','a','d']
+##var1=frozenset(var)
+##print(var1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
